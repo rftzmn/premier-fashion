@@ -68,3 +68,64 @@ body {
   width: 10%;
   /* background-color: red; */
 }
+
+#center {
+  height: 90%;
+  width: 100%;
+  /* background-color: red; */
+  padding: 4vw;
+  position: relative;
+}
+#content {
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+  position: relative;
+}
+#content video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#overlay {
+  height: 52%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  /* background-color: red; */
+  padding: 3vw;
+  color: #fff;
+}
+#over1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2vw;
+}
+#over1 h1 {
+  font-family: "Monument";
+  font-size: 3.6vw;
+  mix-blend-mode: difference;
+}
+#over1 h2 {
+  font-size: 1vw;
+  padding: 2vw 2.2vw;
+  /* background-color: blue; */
+  border-radius: 50%;
+  border: 1px solid #fff;
+  border-bottom: 4px solid #fff;
+}
+#over2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px solid #fff;
+  padding: 1.5vw 0;
+}
+#over2 h4 {
+  font-size: 1.3vw;
+  font-weight: 500;
+}
+#over2 img {
+  height: 3vw;
+}

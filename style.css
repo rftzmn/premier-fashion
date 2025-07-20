@@ -1,0 +1,70 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(Gilroy.ttf);
+}
+@font-face {
+  font-family: Monument;
+  src: url(MonumentExtended-Regular.otf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: "Space Grotesk", sans-serif; */
+  font-family: "Gilroy", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #f8f8f8;
+  position: relative;
+  padding-top: 0.1px;
+}
+
+#nav {
+  height: 11vh;
+  width: 100%;
+  /* background-color: red; */
+  margin-top: 40px;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#nav h1 {
+  /* background-color: blue; */
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Monument";
+  font-size: 45px;
+  letter-spacing: -1px;
+}
+#nav h2 {
+  /* background-color: blue; */
+  height: 100%;
+  width: 20%;
+  font-size: 26px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid black;
+}
+#nav h2:nth-last-child(2) {
+  width: 29%;
+  /* background-color: red; */
+}
+
+#nav h2:nth-last-child(1) {
+  width: 10%;
+  /* background-color: red; */
+}
